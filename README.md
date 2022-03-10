@@ -2,11 +2,11 @@
 
 ## 1. Install JSON Server
 
-### npm install -g json-server
+### `npm install -g json-server`
 
 ## 2. Create a db.json file with this example data:
 
-{
+`{
   "productos": [
     {
       "nombre": "banana 1kg",
@@ -19,11 +19,11 @@
       "id": 9
     }
   ]
-}
+}`
 
 ## 3. Start JSON Server
 
-### json-server db.json --port 4000
+### `json-server db.json --port 4000`
 
 Now if you go to http://localhost:4000, you'll get the json object created above.
 
