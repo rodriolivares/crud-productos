@@ -1,9 +1,11 @@
 # This project works with a fake REST API from json-server, if you want to run this project on localhost and make the requests, you'll need to:
-Install JSON Server
+
+1. Install JSON Server
 
   npm install -g json-server
 
-Create a db.json file with this example data:
+2. Create a db.json file with this example data:
+
 {
   "productos": [
     {
@@ -19,11 +21,11 @@ Create a db.json file with this example data:
   ]
 }
 
-Start JSON Server
+3. Start JSON Server
 
-  json-server --watch db.json
+  json-server db.json --port 4000
 
-Now if you go to http://localhost:3000, you'll get the json object created above.
+Now if you go to http://localhost:4000, you'll get the json object created above.
 
 # Getting Started with Create React App
 
